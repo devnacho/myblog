@@ -8,9 +8,9 @@ h1, h2, h3, h4, h5{
 }
 
 a{
-  color: #28e2ae;
+  color: #F1CA0C;
   &:hover{
-    color: #4c5452;
+    color: #B3960B;
   }
 }
 
@@ -37,7 +37,7 @@ ul{
 
 //HEADER
 section#header{
-  border-top:8px solid #28e2ae;
+  border-top:8px solid #fedc32;
   border-bottom:1px solid #eee;
   margin-bottom:50px;
   padding:10px 0 70px 0;
@@ -71,8 +71,8 @@ section#header{
       }
       figcaption{
         text-align:center;
-      } 
-    } 
+      }
+    }
 
 }
 
@@ -85,7 +85,7 @@ article.index{
   &:last-child{
     border:none;
   }
-  
+
 }
 
 //ARTICLE
@@ -98,7 +98,7 @@ article h2, h3, h4{
 .read-next{
   padding: 45px 0;
   margin-top: 50px;
-  background: #fbfbfb;
+  background: #EAEAEA;
   color: #888;
   border-top: 1px solid #F5F5F5;
   a{
@@ -113,7 +113,7 @@ article h2, h3, h4{
 }
 
 section#footer{
-  background:#4AC5A3;
+  background:#F1CA0E;
   text-align:center;
   padding:20px 0;
   color:white;
@@ -140,7 +140,7 @@ section#footer{
       input.button{
         font: 500 13px/1 "Helvetica", sans-serif;
         border-radius: 2px;
-        background: #7818CF;
+        background: #18CFA9;
         color: #fff;
         text-transform: uppercase;
         padding: 16px 34px;
