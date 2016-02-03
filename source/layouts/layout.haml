@@ -1,0 +1,9 @@
+= partial "head"
+%body
+  = partial "header"
+  .row
+    .large-8.small-12.large-centered.columns
+      %section#content
+        = yield
+  = partial "footer"
+    

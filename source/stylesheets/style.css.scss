@@ -1,0 +1,157 @@
+h1, h2, h3, h4, h5{
+  font-family: 'Bitter', Georgia, serif;
+  font-weight:normal;
+  color:black;
+  a{
+    color:black;
+  }
+}
+
+a{
+  color: #28e2ae;
+  &:hover{
+    color: #4c5452;
+  }
+}
+
+body{
+  font-family: Georgia, serif;
+}
+
+ul{
+  li{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 15px;
+  }
+}
+
+.title{
+  text-align:center;
+  .date{
+    text-align: center;
+    font-weight: lighter;
+    color: #ccc;
+  }
+}
+
+//HEADER
+section#header{
+  border-top:8px solid #28e2ae;
+  border-bottom:1px solid #eee;
+  margin-bottom:50px;
+  padding:10px 0 70px 0;
+  nav.links{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 12px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    a{
+      margin: 0 15px;
+    }
+  }
+  figure{
+    img{
+      border-radius: 200px;
+      -moz-border-radius: 200px;
+      -webkit-border-radius: 200px;
+      margin-top:15px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  section#header{
+      figure img{
+        margin-top:0;
+        margin-bottom:10px;
+      }
+      figcaption{
+        text-align:center;
+      } 
+    } 
+
+}
+
+//INDEX
+article.index{
+  border-bottom: 1px solid #DDD;
+  margin-top: 2.5em;
+  margin-bottom: 5em;
+  padding-bottom: 6em;
+  &:last-child{
+    border:none;
+  }
+  
+}
+
+//ARTICLE
+
+article h2, h3, h4{
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.read-next{
+  padding: 45px 0;
+  margin-top: 50px;
+  background: #fbfbfb;
+  color: #888;
+  border-top: 1px solid #F5F5F5;
+  a{
+    color:#888;
+    &:hover{
+      color:#555;
+    }
+  }
+  .next{
+    text-align:right;
+  }
+}
+
+section#footer{
+  background:#4AC5A3;
+  text-align:center;
+  padding:20px 0;
+  color:white;
+  font-size:11px;
+}
+
+//MAILING LIST PARTIAL
+.mailing-list{
+  border-top:1px solid #ECECEC;
+  margin-top:50px;
+  padding-top:50px;
+  form{
+    label{
+      display: inline-block;
+      input[type='text'],input[type='email']{
+        font: 300 20px/1 "Georgia", serif;
+        border-radius: 2px;
+        border: 1px solid #aaa;
+        -o-transition: border .4s;
+        -ms-transition: border .4s;
+        -webkit-transition: border .4s;
+        transition: border .4s;
+      }
+      input.button{
+        font: 500 13px/1 "Helvetica", sans-serif;
+        border-radius: 2px;
+        background: #7818CF;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 16px 34px;
+        letter-spacing: 1px;
+        -o-transition: opacity .4s;
+        -ms-transition: opacity .4s;
+        -webkit-transition: opacity .4s;
+        transition: opacity .4s;
+        border: none;
+      }
+    }
+  }
+}
+

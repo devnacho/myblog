@@ -1,0 +1,237 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    CFPropertyList (2.3.2)
+    activemodel (3.2.14)
+      activesupport (= 3.2.14)
+      builder (~> 3.0.0)
+    activesupport (3.2.14)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    asset_sync (1.0.0)
+      activemodel
+      fog (>= 1.8.0)
+    builder (3.0.4)
+    chunky_png (1.2.8)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.3)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    daemons (1.1.9)
+    dimensions (1.3.0)
+    dotenv (2.0.2)
+    eventmachine (1.0.3)
+    excon (0.45.4)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    ffi (1.9.0)
+    fission (0.5.0)
+      CFPropertyList (~> 2.2)
+    fog (1.34.0)
+      fog-atmos
+      fog-aws (>= 0.6.0)
+      fog-brightbox (~> 0.4)
+      fog-core (~> 1.32)
+      fog-dynect (~> 0.0.2)
+      fog-ecloud (~> 0.1)
+      fog-google (>= 0.0.2)
+      fog-json
+      fog-local
+      fog-powerdns (>= 0.1.1)
+      fog-profitbricks
+      fog-radosgw (>= 0.0.2)
+      fog-riakcs
+      fog-sakuracloud (>= 0.0.4)
+      fog-serverlove
+      fog-softlayer
+      fog-storm_on_demand
+      fog-terremark
+      fog-vmfusion
+      fog-voxel
+      fog-xml (~> 0.1.1)
+      ipaddress (~> 0.5)
+      nokogiri (~> 1.5, >= 1.5.11)
+    fog-atmos (0.1.0)
+      fog-core
+      fog-xml
+    fog-aws (0.7.6)
+      fog-core (~> 1.27)
+      fog-json (~> 1.0)
+      fog-xml (~> 0.1)
+      ipaddress (~> 0.8)
+    fog-brightbox (0.9.0)
+      fog-core (~> 1.22)
+      fog-json
+      inflecto (~> 0.0.2)
+    fog-core (1.32.1)
+      builder
+      excon (~> 0.45)
+      formatador (~> 0.2)
+      mime-types
+      net-scp (~> 1.1)
+      net-ssh (>= 2.1.3)
+    fog-dynect (0.0.2)
+      fog-core
+      fog-json
+      fog-xml
+    fog-ecloud (0.3.0)
+      fog-core
+      fog-xml
+    fog-google (0.1.1)
+      fog-core
+      fog-json
+      fog-xml
+    fog-json (1.0.1)
+      fog-core (~> 1.0)
+      multi_json (~> 1.0)
+    fog-local (0.2.1)
+      fog-core (~> 1.27)
+    fog-powerdns (0.1.1)
+      fog-core (~> 1.27)
+      fog-json (~> 1.0)
+      fog-xml (~> 0.1)
+    fog-profitbricks (0.0.5)
+      fog-core
+      fog-xml
+      nokogiri
+    fog-radosgw (0.0.4)
+      fog-core (>= 1.21.0)
+      fog-json
+      fog-xml (>= 0.0.1)
+    fog-riakcs (0.1.0)
+      fog-core
+      fog-json
+      fog-xml
+    fog-sakuracloud (1.3.3)
+      fog-core
+      fog-json
+    fog-serverlove (0.1.2)
+      fog-core
+      fog-json
+    fog-softlayer (0.4.7)
+      fog-core
+      fog-json
+    fog-storm_on_demand (0.1.1)
+      fog-core
+      fog-json
+    fog-terremark (0.1.0)
+      fog-core
+      fog-xml
+    fog-vmfusion (0.1.0)
+      fission
+      fog-core
+    fog-voxel (0.1.0)
+      fog-core
+      fog-xml
+    fog-xml (0.1.2)
+      fog-core
+      nokogiri (~> 1.5, >= 1.5.11)
+    formatador (0.2.5)
+    fssm (0.2.10)
+    haml (4.0.3)
+      tilt
+    hike (1.2.3)
+    i18n (0.6.5)
+    inflecto (0.0.2)
+    ipaddress (0.8.0)
+    kramdown (1.1.0)
+    listen (1.2.3)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      rb-kqueue (>= 0.2)
+    maruku (0.6.1)
+      syntax (>= 1.0.0)
+    middleman (3.1.4)
+      coffee-script (~> 2.2.0)
+      compass (>= 0.12.2)
+      execjs (~> 1.4.0)
+      haml (>= 3.1.6)
+      kramdown (~> 1.1.0)
+      middleman-core (= 3.1.4)
+      middleman-more (= 3.1.4)
+      middleman-sprockets (>= 3.1.2)
+      sass (>= 3.1.20)
+      uglifier (~> 2.1.0)
+    middleman-blog (3.2.0)
+      maruku (~> 0.6.0)
+      middleman-core (~> 3.0)
+      tzinfo (~> 0.3.0)
+    middleman-core (3.1.4)
+      activesupport (~> 3.2.6)
+      bundler (~> 1.1)
+      i18n (~> 0.6.1)
+      listen (~> 1.2.2)
+      rack (>= 1.4.5)
+      rack-test (~> 0.6.1)
+      thor (>= 0.15.2, < 2.0)
+      tilt (~> 1.3.6)
+    middleman-more (3.1.4)
+    middleman-sprockets (3.1.4)
+      middleman-core (>= 3.0.14)
+      middleman-more (>= 3.0.14)
+      sprockets (~> 2.1)
+      sprockets-helpers (~> 1.0.0)
+      sprockets-sass (~> 1.0.0)
+    middleman-sync (3.0.12)
+      asset_sync (~> 1.0.0)
+      middleman-core (>= 3.0.0)
+    mime-types (2.6.2)
+    mini_portile (0.5.1)
+    multi_json (1.7.9)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (3.0.1)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+    rack (1.5.2)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    rack-rewrite (1.3.3)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rb-fsevent (0.9.3)
+    rb-inotify (0.9.1)
+      ffi (>= 0.5.0)
+    rb-kqueue (0.2.0)
+      ffi (>= 0.5.0)
+    sass (3.2.10)
+    sprockets (2.10.0)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-helpers (1.0.1)
+      sprockets (~> 2.0)
+    sprockets-sass (1.0.1)
+      sprockets (~> 2.0)
+      tilt (~> 1.1)
+    syntax (1.0.0)
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.18.1)
+    tilt (1.3.7)
+    tzinfo (0.3.37)
+    uglifier (2.1.2)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  builder (~> 3.0.0)
+  dimensions
+  dotenv
+  middleman (~> 3.1.4)
+  middleman-blog (~> 3.2.0)
+  middleman-sync
+  nokogiri
+  rack-contrib
+  rack-rewrite
+  thin

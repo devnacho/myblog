@@ -1,0 +1,22 @@
+.mailing-list
+  .row
+    / Begin MailChimp Signup Form
+    #mc_embed_signup
+      %form#mc-embedded-subscribe-form.validate{:action => "http://twitter.us2.list-manage.com/subscribe/post?u=1e905a384586a889b443bdaf2&id=ed688f65ad", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
+        .large-12.columns
+          %p
+            %strong I send out my best writing and ideas every week to my mailing list—
+        .large-9.columns
+          .row
+            %label.large-6.columns
+              %input#mce-EMAIL.required.email{:name => "EMAIL", :placeholder => "Your Email", :type => "email", :value => ""}/
+            %label.large-6.columns
+              %input#mce-FNAME{:name => "FNAME", :type => "text", :value => "", :placeholder => "Your Name"}/
+        %label.large-3.columns
+          %input#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit", :value => "Subscribe"}/
+        #mce-responses.clear
+          #mce-error-response.response{:style => "display:none"}
+          #mce-success-response.response{:style => "display:none"}
+
+    / End mc_embed_signup
+
