@@ -9,6 +9,7 @@ gem 'dotenv'
 gem 'dimensions'
 
 
+gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem "middleman", "~> 3.1.4"
 gem "middleman-blog", "~> 3.2.0"
 

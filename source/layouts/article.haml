@@ -11,7 +11,7 @@
               %br
               \—
             %h1= current_article.title
-          = yield
+          ~ yield
           = partial "mailing_list"
   .read-next
     .row
@@ -19,7 +19,7 @@
         - unless current_article.previous_article.nil?
           «
           = link_to current_article.previous_article.title, current_article.previous_article
-      .large-6.small-6.columns.next    
+      .large-6.small-6.columns.next
         - unless current_article.next_article.nil?
           = link_to current_article.next_article.title, current_article.next_article
           »

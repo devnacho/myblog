@@ -155,3 +155,9 @@ section#footer{
   }
 }
 
+pre[class*="language-"]{
+  font-size: 14px;
+  code{
+    font-weight: normal;
+  }
+}
