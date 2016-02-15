@@ -20,7 +20,7 @@ I understand this feeling as learning React was quite easy for me but for a long
 I wasn't sure which was the best way to write simple If/Else statements inside JSX.
 
 Every time I needed to write conditionals I would do it in a different way and I
-would feel frustrated that I wasn't consistent.
+would feel frustrated because I wasn't consistent.
 
 Here are some different ways you can write If/Else conditionals in React:
 READMORE
@@ -135,7 +135,7 @@ class HelloMessage extends React.Component {
 ### So which option should I choose then?
 As you can see there isn't just one way to do it, it's a matter of style,
 context and personal preference. Feel free to use the one that suits your coding style and
-make sure you and your team agree on the style that is better of your current
+make sure you and your team agree on the style that is better for your current
 project.
 
 I usually write my IF-Else statements like the option 2 and only when is
