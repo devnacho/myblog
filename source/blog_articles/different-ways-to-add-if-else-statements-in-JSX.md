@@ -7,9 +7,9 @@ tags: react, if, else, jsx, conditionals
 ---
 
 I know this sounds easy but I've seen this question being repeated several times
-in stackoverflow, the reactiflux chat  or the react subreddit.
+in stackoverflow, the reactiflux chat or the react subreddit.
 
-> "Im trying to do a simple If/Else in JSX but for some reason I can't make it
+> "I'm trying to do a simple If/Else in JSX but for some reason I can't make it
 > work"
 
 
@@ -17,7 +17,7 @@ in stackoverflow, the reactiflux chat  or the react subreddit.
 > JSX"
 
 I understand this feeling as learning React was quite easy for me but for a long period of time
-I wasn't sure which was the best way to write simple If/Else statement inside JSX.
+I wasn't sure which was the best way to write simple If/Else statements inside JSX.
 
 Every time I needed to write conditionals I would do it in a different way and I
 would feel frustrated that I wasn't consistent.
@@ -27,7 +27,7 @@ READMORE
 
 ### Option 1:
 In this example you can do the If-Else by doing it all Js and assigning the JSX
-blocks to a variable. I like this approach because it keeps the "return" section
+blocks to a variable. I like this approach because it keeps the `return` section
 pretty clean.
 
 ```language-js
@@ -57,8 +57,8 @@ class HelloMessage extends React.Component {
 ```
 
 ### Option 2: 
-Often times to avoid messing up the render function too much I
-separate the conditional in a new function.
+Often times to keep the `render` function clean I separate the conditional in a
+different function that handles the If-Else.
 
 ```language-js
 class HelloMessage extends React.Component {
