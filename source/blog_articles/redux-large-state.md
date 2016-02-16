@@ -1,7 +1,7 @@
 ---
 title: Will I have performance issues when my redux state object becomes very large?
 layout: article
-published: false
+published: true
 date: 2016-02-16 00:00 UTC
 tags: react, redux, performance
 ---
