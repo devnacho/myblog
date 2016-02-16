@@ -60,7 +60,7 @@ If you debug this object you would see:
 
 
 If you are still worried that by changing the state, redux will make excessive
-copying of the state and hurt memory performance you can avoid this by using 
+copying of the state and hurt memory performance, you can avoid this by using 
 immutable data structures like [Immutable JS](https://facebook.github.io/immutable-js/).
 
 This way, objects are immutable and can be "copied" simply by making another reference
@@ -72,11 +72,11 @@ you return from the reducer. You can use plain objects or immutable data
 structures.
 
 Overall, 90% of the apps will never face this type of performance problems. Before
-overengineering it's better to think how large your app will become. If you are sure
-your app will have a "big" state you might want to do a stress test before
-jumping early to these performance optimizations 
+overengineering, it's better to think how large your app will become. If you are sure
+your app will have a "big" state, you might want to do a stress test before
+jumping early to these performance optimizations.
 
-In any other case it's better to don't worry
+In any other case, it's better to avoid worrying
 about this until it actually is a problem – which may never be.
 
 **Did this article help you? If it did help you, join my mailing list below where I
