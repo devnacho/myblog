@@ -1,34 +1,35 @@
 ---
-title: How to add If-Else statements in JSX?
+title: How to Add If…Else Statements in JSX
 layout: article
 published: true
 date: 2016-02-15 00:00 UTC
 tags: react, if, else, jsx, conditionals
 ---
 
-I know this sounds easy but I've seen this question being repeated several times
-in stackoverflow, the reactiflux chat or the react subreddit.
+I know this sounds easy, but I’ve seen this question several times in
+stackoverflow, the reactiflux chat and the react subreddit.
 
-> "I'm trying to do a simple If/Else in JSX but for some reason I can't make it
-> work"
+> “I’m trying to write a simple If…Else statement in JSX, but for some reason I
+> can’t make it work.”
 
 
-> "I feel dumb asking about this but what is the best way to write an if-else in
-> JSX"
+> “I feel dumb asking this, but what is the best way to write an If…Else in JSX?”
 
-I understand this feeling as learning React was quite easy for me but for a long period of time
-I wasn't sure which was the best way to write simple If/Else statements inside JSX.
 
-Every time I needed to write conditionals I would do it in a different way and I
-would feel frustrated because I wasn't consistent.
+I understand the uncertainty here, as learning React was quite easy for me, but
+it took a long time before I knew the best way to write simple If…Else
+statements in JSX.
 
-Here are some different ways you can write If/Else conditionals in React:
+Every time I needed to write a conditional, I would do it in a different way,
+and I would feel frustrated by my inconsistency.
+
+Here are some different ways you can write If…Else conditionals in React:
 READMORE
 
 ### Option 1:
-In this example you can do the If-Else by doing it all Js and assigning the JSX
-blocks to a variable. I like this approach because it keeps the `return` section
-pretty clean.
+In this example, you can create the If…Else statement by doing it in all Js and
+assigning the JSX blocks to a variable. I like this approach because it keeps
+the return section pretty clean.
 
 ```language-js
 class HelloMessage extends React.Component {
@@ -57,8 +58,8 @@ class HelloMessage extends React.Component {
 ```
 
 ### Option 2: 
-Often times to keep the `render` function clean I separate the conditional in a
-different function that handles the If-Else.
+Oftentimes, to keep the render function clean, I separate the conditional in a
+different function that handles the If…Else statement.
 
 ```language-js
 class HelloMessage extends React.Component {
@@ -90,7 +91,7 @@ class HelloMessage extends React.Component {
 ```
 
 ### Option 3: 
-For smaller stuff I usually prefer to do it inline with the ternary operator
+For smaller stuff, I usually prefer to do it inline with the ternary operator
 inside the JSX block.
 
 ```language-js
@@ -108,9 +109,9 @@ class HelloMessage extends React.Component {
 ```
 
 ### Option 4: 
-If you are a big fan of keeping things inline you can even use it for bigger JSX
-blocks. In my opinion this way isn't super clear visually so I don't use it as
-much.
+If you are a fan of keeping things inline, you can even use this option for
+bigger JSX blocks. In my opinion, this makes things somewhat unclear visually,
+so I don’t use it as often.
 
 ```language-js
 class HelloMessage extends React.Component {
@@ -132,19 +133,20 @@ class HelloMessage extends React.Component {
 }
 ```
 
-### So which option should I choose then?
-As you can see there isn't just one way to do it, it's a matter of style,
-context and personal preference. Feel free to use the one that suits your coding style and
-make sure you and your team agree on the style that is better for your current
-project.
+### So, which option should I choose?
+As you can see, there is more than one way to go about doing this. It’s all a
+matter of style, context and personal preference. So, feel free to use the
+option that suits your coding style, and make sure you and your team agree on
+the style that is the best fit for your current project.
 
-I usually write my IF-Else statements like the option 2 and only when is
-something really really simple I go with the option 3 one-liner.
+I usually rely on the second option to write my If…Else statements, although
+I’ll consider the third option — the one-liner — when it's something extremely
+simple.
 
-But how about you? How do you write your IF-Else statements inside JSX? Tweet me
-at [@devnacho](http://twitter.com/devnacho) and let me know!
+How about you? How do you write your If…Else statements in JSX? Tweet me your
+answer at @devnacho!
 
-Did you like this post? Sign up below to my email list and receive more content
+Did you like this post? Sign up to my email list below and receive more content
 like this.
 
 
