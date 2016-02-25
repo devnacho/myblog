@@ -1,9 +1,9 @@
 ---
-title: What is the best way to style react components these days?
+title: What is the best way to style React components these days?
 layout: article
 published: true
 date: 2016-02-24 00:00 UTC
-tags: react, styles, css modules, radium
+tags: React, styles, css modules, radium
 ---
 The short answer is that you should use CSS Modules. Here’s why:
 
@@ -29,7 +29,7 @@ library that people are talking about.
 The same thing is happening with the way we manage our styles. After agreeing on
 the historical problems CSS presents (e.g., Global Namespace, Dependencies, Dead
 Code Elimination, Sharing Constants), lots of new libraries have suddenly
-appeared. The following are some of the new ways to style react components:
+appeared. The following are some of the new ways to style React components:
 React Built-in Inline Styles, Radium, React Style, React Inline, jsxstyle, React
 JSS, CSS Modules, React Shadow, react-in-style, React Free Style, React Look,
 smart-css, Stillr, React Inline CSS & react-css builder, among others.
