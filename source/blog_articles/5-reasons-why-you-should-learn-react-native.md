@@ -85,10 +85,6 @@ Components are written in the same way as on the web, and the only difference is
 that instead of rendering `<div>`, `<p>` or `<img>` components, you will render components like `<View>`,
 `<Text>` or `<Image>`.
 
-I made this app while I was learning React, and it only took me a couple of
-hours:
-[Add spotify player image here gif]
-
 **5. You can share a substantial amount of code between your iOS & Android app.**
 
 I know that I said that the idea of React Native is not to “write once, run
