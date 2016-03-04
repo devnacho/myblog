@@ -1,8 +1,8 @@
 ---
 title: 5 Reasons Why You Should Try Out React Native
 layout: article
-published: false
-date: 2016-02-24 00:00 UTC
+published: true
+date: 2016-03-03 00:00 UTC
 tags: React, React Native, iOS, Android, Mobile Development
 ---
 Say you’re a web developer and have been interested in mobile development for
@@ -44,8 +44,27 @@ to platform-specific APIs like Async Storage, Camera, Camera Roll, Push
 Notifications, etc.
 
 Here are some gifs that reveal how React Native apps look and feel:
-[ Put some gifs of react native apps here. ]
 
+<div style="width: 50px;">
+  <blockquote class="imgur-embed-pub" lang="en" data-id="JbRS1G9"><a
+  href="//imgur.com/JbRS1G9">View post on imgur.com</a></blockquote><script async
+  src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+</div>
+<div style="width: 50px;">
+  <blockquote class="imgur-embed-pub" lang="en" data-id="AvHAELN"><a
+  href="//imgur.com/AvHAELN">View post on imgur.com</a></blockquote><script async
+  src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+</div>
+<div style="width: 50px;">
+  <blockquote class="imgur-embed-pub" lang="en" data-id="mqVYGcN"><a
+  href="//imgur.com/mqVYGcN">View post on imgur.com</a></blockquote><script async
+  src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+</div>
+<div style="width: 50px;">
+  <blockquote class="imgur-embed-pub" lang="en" data-id="yPR2C7Y"><a
+  href="//imgur.com/yPR2C7Y">View post on imgur.com</a></blockquote><script async
+  src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+</div>
 **3. You can use the same workflow you do as a web developer.**
 
 If you come from web development, you will appreciate that the workflow is quite
