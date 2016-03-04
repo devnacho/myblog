@@ -38,8 +38,8 @@ completely different set of technologies and tools.
 **2. React Native truly feels native because it uses truly native components.**
 
 With React Native, you can use standard platform components such as the
-NavigatorIOS, the DatePickerIOS and the UITabBar on iOS, or the Drawer, the
-DatePickerAndroid and the ProgressBarAndroid on Android. You’ll also have access
+`NavigatorIOS`, the `DatePickerIOS` and the `UITabBar` on iOS, or the Drawer, the
+`DatePickerAndroid` and the `ProgressBarAndroid` on Android. You’ll also have access
 to platform-specific APIs like Async Storage, Camera, Camera Roll, Push
 Notifications, etc.
 
@@ -76,7 +76,7 @@ I know that I said that the idea of React Native is not to “write once, run
 everywhere,” but you can still share quite a bit of code between your iOS and
 your Android app.
 
-You can share utility functions, your app status, your router and even some
+You can share utility functions, your app state, your router and even some
 components.
 
 Plus you can have platform-specific components like these ones:
