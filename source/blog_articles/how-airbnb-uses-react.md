@@ -19,8 +19,7 @@ show how React used in large apps.
 In my first article I had the honor to ask a couple of questions to [Leland
 Richardson](https://github.com/lelandrichardson), Software Engineer at Airbnb
 and the main contributor of their React Testing Library
-[Enzyme](https://github.com/airbnb/enzyme).
-
+[Enzyme](https://github.com/airbnb/enzyme). Read on to find out why they choose React, how do they use it, and what are the biggest challenges they have found on their implementation.
 
 __How many people in your team work with the React piece of code?__
 
@@ -99,7 +98,7 @@ everyone should learn how to write linting rules. They are quite useful.*
 source, but nothing more that I can say at this time."*
 
 
-__How do you manage Styes?__
+__How do you manage Styles?__
 
 *"Right now we use SCSS to compile CSS, so pretty much just "good old regular
 css". We are investigating whether or not there is a component-based style
@@ -118,3 +117,6 @@ __Do you use or plan to use React Native?__
 
 *"We are currently exploring using React Native for some features of our main
 App. We have used it in other places, but never anything public."*
+
+
+Airbnb is not the only large application that uses React. On our next post from this series we'll chat with a top developer from other successful company who will be providing his insights and experience with this technology. Stay tuned!
