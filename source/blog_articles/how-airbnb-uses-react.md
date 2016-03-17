@@ -5,6 +5,7 @@ published: false
 date: 2016-03-16 00:00 UTC
 tags: react, large apps, business, airbnb
 ---
+![](/images/airbnb-react.png)
 React is used by some well-known companies with large applications that cater millions of
 users and their code base is being constantly changed by lots of
 engineers.
@@ -20,6 +21,8 @@ In my first article I had the honor to ask a couple of questions to [Leland
 Richardson](https://github.com/lelandrichardson), Software Engineer at Airbnb
 and the main contributor of their React Testing Library
 [Enzyme](https://github.com/airbnb/enzyme). Read on to find out why they choose React, how do they use it, and what are the biggest challenges they have found on their implementation.
+
+READMORE
 
 __How many people in your team work with the React piece of code?__
 
