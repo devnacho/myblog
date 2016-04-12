@@ -24,6 +24,8 @@ language guarantees no runtime exceptions and an easy front-end development
 experience. The idea is to provide a solution to Javascript’s lack of
 maintainability and hard-to-catch production errors.
 
+READMORE
+
 At first, the syntax drove me off, and I left it at the back of my mind for a
 couple of weeks. But one day, I saw this talk by Richard Feldman called “Make
 the Back-End Team Jealous: Elm in Production,” and it hooked me immediately.
