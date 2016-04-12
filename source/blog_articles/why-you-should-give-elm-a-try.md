@@ -5,14 +5,13 @@ published: false
 date: 2016-04-12 00:00 UTC
 tags: elm, react, languages, front end
 ---
-
+![](/images/elm.png)
 I've been working with React for quite a long time now, creating apps of all
 sizes for several clients. I think React was one of the major breakthroughs in
-frontend in the past years, and it brought the joy back to working on the
-frontend and creating interesting and complex UIs.
+frontend in the past years, and it brought the joy back to creating interesting and complex UIs.
 
 A couple of months ago, a friend of mine who also uses React recommended me Elm.
-I also started to notice it was mentioned in different blog posts, in the docs
+I also started to notice it was mentioned in several blog posts, in the docs
 of Redux and in some conferences such as the Reactive Conf or The React Conf
 2016. Something interesting to remark is that "Rethinking Best Practices with
 Elm" was the only non-React or React Native talk in the whole conference.
@@ -57,12 +56,12 @@ and helpfulness of the compiler error messages.
 
 - You won't practically need to debug with the console again. At first, it was
   quite weird not to do "Console Debugging Driven Development" like we do with
-JS but then it feels awesome.
+JS but then it felt wonderful.
 
 - Null value doesn't exist in Elm so, forget about having "undefined is not a
   function errors." 
 
-- The way to structure Elm applications is called "The Elm Architecture", and if
+- The way to architect Elm applications is called "The Elm Architecture", and if
   you have used Redux in the past, you will get it in 2 minutes. This is no
 coincidence as Dan Abramov, the creator of Redux, says that Elm was one of the
 things he got inspiration from when creating Redux.
@@ -101,6 +100,9 @@ These are some of my reasons:
 
 - You can bring ideas from your learning experience to your everyday programming
   language.
+
+- If you don't come from a functional programming background, it will help you
+  understand the paradigm in an easy way.
 
 I will keep progressing with this language and intend to use it on some of my
 side projects and I hope you give it a try. 
