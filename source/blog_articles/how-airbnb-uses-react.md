@@ -19,7 +19,7 @@ how React is used in large apps.
 In my first article, I had the honor of asking a couple of questions to [Leland
 Richardson](https://github.com/lelandrichardson), Software Engineer at Airbnb,
 and the main contributor to their React
-Testing Library [Enzyme](https://github.com/airbnb/lelandricharson). Read on to
+Testing Library [Enzyme](https://github.com/airbnb/enzyme). Read on to
 find out why they chose React, how they use
 it, and what challenges they have encountered in the process.
 
