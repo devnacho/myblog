@@ -92,7 +92,7 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :sync do |sync|
   sync.fog_provider = 'AWS' # Your storage provider
-  sync.fog_directory = 'devnacho.com' # Your bucket name
+  sync.fog_directory = 'www.devnacho.com' # Your bucket name
   sync.aws_access_key_id = ENV['AWS_ACCESS_KEY_ID'] # Your Amazon S3 access key
   sync.aws_secret_access_key = ENV['AWS_SECRET_ACCESS_KEY'] # Your Amazon S3 access secret
   sync.existing_remote_files = 'keep' # What to do with your existing remote files? ( keep or delete )
