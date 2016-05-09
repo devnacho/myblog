@@ -65,6 +65,12 @@ Here are some gifs that reveal how React Native apps look and feel:
   href="//imgur.com/yPR2C7Y">View post on imgur.com</a></blockquote><script async
   src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 </div>
+
+Here's an app I built to practice React Native:
+<div style="width: 50px;">
+  <blockquote class="imgur-embed-pub" lang="en" data-id="XMH3hrJ"><a href="//imgur.com/XMH3hrJ">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+</div>
+
 **3. You can use the same workflow you do as a web developer.**
 
 If you come from web development, you will appreciate that the workflow is quite
